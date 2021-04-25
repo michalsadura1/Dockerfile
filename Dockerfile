@@ -3,7 +3,6 @@
 #######################
 FROM ubuntu:14.04
 #autor Michal Sadura
-MAINTAINER  Michal Sadura <michalsadura4@gmail.com>
 CMD echo Witaj, swiecie
 RUN mkdir nowyfolder
 RUN touch /nowyfolder/nowyplik
